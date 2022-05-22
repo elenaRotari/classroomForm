@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formular ClassRoom</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <p>Forms</p>
+      </div>
+    </header>
+
+    <form class="listContainer">
+      <fieldset>
+        <legend>Personal Data</legend>
+        <label>First name:<input type="text" /></label>
+        <label>Last name:<input type="text" /></label>
+        <label>Street:<input type="text" /></label>
+        <label>Zipcode:<input type="text" /></label>
+        <label>City:<input type="text" /></label>
+        <label>Phone:<input type="text" /></label>
+        <label>Email:<input type="text" /></label>
+        <label
+          >Comments:
+          <textarea
+            cols="30"
+            rows="7"
+            placeholder="Tell us more about important colors, etc."
+          ></textarea>
+        </label>
+      </fieldset>
+    </form>
+    <form class="listContainer">
+      <fieldset>
+        <legend>Products</legend>
+        <div>
+          <h3>Web Design:</h3>
+        </div>
+        <div class="radio">
+          <input type="radio" id="individual" name="radio" />
+          <label for="individual">Individual</label>
+
+          <input type="radio" id="template" name="radio" />
+          <label for="template">Template</label>
+        </div>
+
+        <div>
+          <h3>Web Development:</h3>
+        </div>
+        <div class="checkboxContainer">
+          <div>
+            <input type="checkbox" id="html&css" name="checkbox" />
+            <label for="html&css"> HTML & CSS </label>
+          </div>
+          <div>
+            <input type="checkbox" id="javaScript" name="checkbox" />
+            <label for="javaScript"> JavaScript</label>
+          </div>
+          <div>
+            <input type="checkbox" id="mongoDb" name="checkbox" />
+            <label for="mongoDb"> MongoDB</label>
+          </div>
+        </div>
+        <label>Project Start: <input type="date" /></label>
+        <label>Project End: <input type="date" /></label>
+
+        <select>
+          <option value="Personal">Personal</option>
+          <option value="impersonal">Impersonal</option>
+          <option value="option3">Option3</option>
+        </select>
+      </fieldset>
+      <button>Order our service</button>
+    </form>
+  </body>
+</html>

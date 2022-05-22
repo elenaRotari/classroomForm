@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Arizonia&family=Bangers&family=Berkshire+Swash&family=Concert+One&family=Dancing+Script:wght@700&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Great+Vibes&family=Henny+Penny&family=Mea+Culpa&family=Orelega+One&family=Oswald:wght@500;700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&family=Smokum&family=Special+Elite&family=Stint+Ultra+Condensed&family=Water+Brush&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.listContainer {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(53, 58, 64);
+  padding: 0.5rem;
+}
+fieldset {
+  border: 1px solid rgb(241, 237, 237);
+}
+
+.header p {
+  color: white;
+  font-size: 1.9rem;
+}
+
+.listContainer fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  gap: 1rem;
+  padding: 2rem;
+}
+legend {
+  color: darkblue;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+input {
+  display: block;
+  height: 2rem;
+}
+input,
+textarea {
+  width: 100%;
+}
+label {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.radio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.radio input {
+  width: 30px;
+  accent-color: rgb(223, 120, 57);
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.checkboxContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkboxContainer input {
+  width: 30px;
+}
+select {
+  background-color: lightgrey;
+  height: 2rem;
+}
+
+button {
+  color: white;
+  font-weight: 600;
+  background-color: #53ab21;
+  padding: 0.9rem;
+  border-radius: 5px;
+  border: none;
+
+  margin: 1rem 0;
+}
